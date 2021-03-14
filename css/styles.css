@@ -601,19 +601,15 @@ p {
 }
 
 
-.buttons-list {
+.button__list {
     display: flex;
     justify-content: center;
 }
 
-.item-button {
+.button__item{
     margin-top: 100px;
     margin-bottom: 50px;
     margin-right: 8px;
-}
-
-.site-nav-list .link:last-child {
-    margin-right: 0;
 }
 
 .primary-button {
@@ -647,20 +643,6 @@ p {
     background-color: var(--accent-color);
     text-decoration: none;
     outline:none;
-}
-
-.site-nav .link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--primary-text-color);
-    text-decoration: none;
-}
-
-.site-nav .link:hover, 
-.site-nav .link:focus {
-    color: var(--accent-color);   
 }
 
 /*-- Футер --*/
@@ -909,19 +891,19 @@ p {
     fill: var(--accent-color);
 }
 
-.form-title {
+.form__title {
     margin-bottom: 12px;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
 }
 
-.form-field {
+.form__field {
     display: flex;
     flex-direction: column;
 }
 
-.form-field label {
+.form__field label {
     margin-bottom: 4px;
     color: var(--grey-text);
     font-size: 12px;
@@ -930,14 +912,14 @@ p {
     letter-spacing: 0.01em;
 }
 
-.input-thumb {
+.form__input-thumb {
     position: relative;
     content: "";
     margin-bottom: 10px;
 }
 
-.input-thumb:hover,
-.input-thumb:focus-within {
+.form__input-thumb:hover,
+.form__input-thumb:focus-within {
     fill: var(--accent-color);
     transition: transform 250ms var(--cubic);
 }
@@ -965,7 +947,7 @@ p {
     transform: translateY(-50%);
 }
 
-.textarea {
+.form__textarea {
     resize: none;
     height: 120px;
     margin-bottom: 20px;
@@ -981,8 +963,8 @@ p {
     color: rgba(117, 117, 117, 0.5);
 }
 
-.textarea:hover,
-.textarea:focus {
+.form__textarea:hover,
+.form__textarea:focus {
     border-color: var(--accent-color);
     outline: none;
     transition: transform 250ms var(--cubic);
