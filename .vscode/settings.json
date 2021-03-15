@@ -1,28 +1,21 @@
 {
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "vs-seti",
-    "files.autoSave": "onFocusChange",
-    "editor.codeLensFontSize": 100,
-    "editor.find.addExtraSpaceOnTop": false,
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false,
-    "editor.formatOnType": false,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveSassCompile.settings.excludeList": [
-        
-
-        "**/node_modules/**",
-        ".vscode/**"
-    ],
-    "liveSassCompile.settings.autoprefix": [],
     "liveSassCompile.settings.formats": [
-    
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": null,
-            "savePathSegmentKeys": null,
-            "savePathReplaceSegmentsWith": null
-        }
-    ]
-}
+      {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css"
+      },
+      {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "/css"
+      }
+    ],
+    "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": [
+     "> 1%",
+      "last 2 versions"
+    ],
+    "liveServer.settings.port": 5501
+  }
