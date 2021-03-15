@@ -47,7 +47,7 @@
     border: none;
 }
 
-.hero__button:hover,
-.hero__button:focus {
+&:hover,
+&:focus {
     outline: none;
 }

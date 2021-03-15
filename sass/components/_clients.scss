@@ -12,7 +12,6 @@
     display: flex;
     justify-content: center;
     padding-bottom: 94px;
-    /*background-color: tomato;*/
 }
 
 .client {
@@ -24,8 +23,16 @@
     background-size: contain;
 }
 
-.client:last-child {
+&:last-child {
     margin-right: 0;
+}
+
+&:focus svg,
+&:hover svg,
+&:focus > .client-link,
+&:hover > .client-link {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .client__link {
@@ -49,12 +56,4 @@
 
 .client__btn-icon {
     fill: var(--client-color);
-}
-
-.client:focus svg,
-.client:hover svg,
-.client:focus > .client-link,
-.client:hover > .client-link {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
 }

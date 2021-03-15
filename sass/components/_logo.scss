@@ -17,11 +17,11 @@
     text-decoration: none;
 }
 
-.logo--blue {
+&:hover, 
+&:focus {
     color: var(--accent-color);
 }
 
-.logo:hover, 
-.logo:focus {
+.logo--blue {
     color: var(--accent-color);
 }

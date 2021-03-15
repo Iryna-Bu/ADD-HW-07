@@ -24,6 +24,10 @@
     color: var(--primary-text-color);
 }
 
+&:last-child {
+    margin-right: 0;
+}
+
 .feature__icon {
     display: flex;
     justify-content: center;
@@ -42,9 +46,6 @@
     color: var(--primary-text-color);
 }
 
-.feature__title:last-child {
-    margin-right: 0;
-}
 
 .feature__text {
     width: 270px;
@@ -55,6 +56,6 @@
     color: var(--secondary-text-color);
 }
 
-.feature__text:last-child {
+&:last-child {
     margin-right: 0;
 }
